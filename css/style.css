@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background: #DAE7E5;
+	color: #CAFFB9;
+}
+h1,h2,h3,span{
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 2px 2px 4px #000;
+}
+
+h2,h3{
+	text-transform: uppercase;
+}
+
+form input{
+	font-family: 'Open Sans', sans-serif;
+	background: #CAFFB9;
+	color: #2E4057
+}
+
+
+.logo{
+	text-align: center;
+}
+.logo a{
+	color: #DAE7E5;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px #000;
+}
+.logo a:hover{
+	color: #CAFFB9;
+}
+.logo span{
+	font-size: 50px;
+	position: absolute;
+	text-align: center;	
+	left: 1em;
+	top: 0.2em;
+}
+.contacto{
+	background: #2E4057;
+	font-size: 15px;
+	text-align: right;
+	padding: 1em 3em;
+}
+.contacto a{
+	text-decoration: none;
+	color: #CAFFB9;
+	text-transform: uppercase;
+}
+.contacto a:hover{
+	color: #90D930;
+}
+.sMedia{
+	background: #4A716D;
+	text-align: right;
+}
+.sMedia ul{
+	display: inline-flex;
+	padding-right: 2em; 
+}
+.sMedia ul a{
+	text-decoration: none;
+	color: #CAFFB9;
+}
+.sMedia ul a:hover{
+	color: #90D930;
+}
+.sMedia ul li{
+	list-style: none;
+	padding: 0.2em 0.7em;
+}
+.fstLine{
+	justify-content: center;
+}
+.sndLine, .secciones, .lema{
+	margin: 0 18em;
+	padding: 1em;
+}
+.sndLine ul{
+	display: inline-flex;
+	background: #66A182;
+	padding: 0.5em;
+	border: 2px solid #66A182;
+	border-radius: 20px;
+}
+.sndLine li{
+	list-style: none;
+	padding: 0 2em;
+	font-family: 'Russo One', sans-serif;
+	color: #CAFFB9;
+	text-transform: uppercase;
+}
+
+.sndLine a{
+	text-decoration: none;
+	color: #CAFFB9;
+}
+.sndLine a:hover{
+	color: #90D930;
+}
+.sndLine form{
+	position: relative;
+	top: -3px;
+}
+.lema{
+	justify-content: center;
+	text-align: center;
+	background: url('../img/team.jpg');background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;		
+	border: 2px solid #66A182;
+	border-radius: 20px;
+	padding: 8em 3em;
+}
+.lema a{
+	color: #CAFFB9;
+	text-decoration: none;
+}
+.lema a:hover{
+	color: #90D930;
+}
+.secciones{
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	left: 113px;
+}
+.secciones div{
+	justify-content: center;
+}
+.col1,.col2{
+	flex-basis: 50%;
+}
+.col1{
+	display: inline-flex;
+}
+.col1 li{
+	list-style: none;
+	margin: 1em;
+	padding: 6em 6em;
+	background: #66A182;
+	border: 2px solid #66A182;
+	border-radius: 20px;
+}
+.col1 a{
+	color: #CAFFB9;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+.col2{
+    background: url('../img/limited_edition.jpg');
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: cover;	
+	border: 2px solid #66A182;
+	border-radius: 20px;
+	padding: 4em 3em;
+	justify-content: center;
+	padding-top: 8em;
+}
+.col2 a{
+	padding: 4em;
+	margin: 1em;
+	font-size: 50px;
+	color: #CAFFB9;
+	text-decoration: none;
+}
+.col2 a:hover ,.col1 a:hover{
+	color: #90D930;
+}
+.col1 .basics{
+	background: linear-gradient(to right, rgba(74, 113, 109, 0.7), rgba(74, 113, 109, 0.7)), url(../img/basics.png);
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: cover;	
+}
+
+.col1 .diy{
+	background: linear-gradient(to right, rgba(74, 113, 109, 0.7), rgba(74, 113, 109, 0.7)), url(../img/diy.png);
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: cover;	
+}
+
+.trending{
+	font-size: 30px;
+	justify-content: center;
+	text-align: center;
+	padding: 2em 10em;
+}
+.trending table{
+	padding: 1em;
+	background: #66A182;
+	border: 2px solid #66A182;
+	border-radius: 20px;
+}
+.trending table img{
+	padding: 0 5px;
+}
+
+.map{
+	text-align: center;
+	justify-content: center;
+	padding: 2em 10em;
+	background: #66A182;
+}
+.map h3{
+	padding-left: 14em;
+	padding-bottom: 1em;
+	text-align: left;
+	font-size: 30px;
+}
+
+footer{
+	justify-content: center;
+	text-align: center;	
+	color: #66A182;
+	background: #242424;
+	padding: 2em 12em;
+}
+footer ul{
+	display: inline-flex;
+	list-style: none;
+}
+footer li{
+	padding: 0 1em;
+}
+footer ul a{
+	color: #66A182;
+	text-decoration: none;
+}
+footer ul a:hover{
+	color: #90D930;
+	text-decoration: underline;
+}
